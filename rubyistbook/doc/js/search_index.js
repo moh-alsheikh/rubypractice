@@ -1,0 +1,1 @@
+var search_data = {"index":{"searchIndex":["car","new()","start()","stop()"],"longSearchIndex":["car","car::new()","car#start()","car#stop()"],"info":[["Car","","Car.html","",""],["new","Car","Car.html#method-c-new","()",""],["start","Car","Car.html#method-i-start","()",""],["stop","Car","Car.html#method-i-stop","()",""]]}}

@@ -1,0 +1,23 @@
+namespace :testrake do
+
+  desc "TEST RAKE UTILITY"
+
+  task :welcome do
+    puts "Please enter your name ::"
+    gname = $stdin.gets
+    puts "Welcome #{gname}"
+  end
+  
+  task :ptime do
+    puts "#{Time.now}"
+  end
+  
+  task :yourage do
+    puts "Please enter your brtihdate in format of YYYY ::"
+    byear = $stdin.gets.to_i
+    cyear = 2012
+    puts "You age is  #{cyear-byear}"
+  end
+ 
+   
+end
